@@ -1,0 +1,57 @@
+.patientinfoContainer {
+    background-color: #f7f8fc;
+}
+
+.patientInfo {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.filterContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span[class*="MuiSlider-root"] {
+    padding: 24px 0;
+    width: 70%;
+    margin: 0;
+}
+
+.tableheadtext {
+    font-size: 14px;
+    color: black;
+}
+
+.sortingIcon  svg{
+    width: 18px;
+    height: 18px;
+    color: black;
+}
+
+.tablebody {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.custom-mark {
+    width: '4px';
+    height: '4px';
+    border-radius: '50%';
+    background-color: 'blue';
+    position: 'absolute';
+    top: '-6px';
+}
+
+@media screen and (max-width: 768px) {
+    .patientInfo {
+        overflow-x: scroll;
+    }
+
+    span[class*="custom-mark"] {
+        top: -16px !important;
+    }
+}

@@ -1,0 +1,28 @@
+.leftnavContainer {
+    background-color: #1f015c;
+    width: 50px;
+    height: auto;
+    position: relative;
+    border-color: #1f015c;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topmenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.topmenu svg,
+.bottommenu svg {
+    fill: white
+}
+
+.bottommenu {
+    display: flex;
+    flex-direction: column;
+}
